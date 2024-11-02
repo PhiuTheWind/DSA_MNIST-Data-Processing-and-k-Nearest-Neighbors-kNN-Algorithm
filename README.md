@@ -4,7 +4,7 @@
 
 This is a major assignment for the Data Structures and Algorithms course at Ho Chi Minh University of Technology. The aim of this assignment is to familiarize students with the k-nearest neighbors (kNN) classification algorithm and apply it to process and classify data from the MNIST dataset using list-based data structures.
 
-**Objectives **
+**Objectives**
 
 Upon completing this assignment, students will:
 + Master object-oriented programming.
