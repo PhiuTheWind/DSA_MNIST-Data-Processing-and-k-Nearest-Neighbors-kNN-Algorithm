@@ -1,28 +1,19 @@
-**Xử Lý Dữ Liệu MNIST và Thuật Toán k-Nearest Neighbors (kNN)**
-**Giới Thiệu**
-Đây là bài tập lớn cho môn Cấu trúc dữ liệu và giải thuật tại Trường Đại học Bách Khoa TP.HCM. Mục tiêu của bài tập là làm quen với thuật toán phân loại k-nearest neighbors (kNN) và áp dụng thuật toán này để xử lý và phân loại dữ liệu từ bộ dữ liệu MNIST, thông qua việc sử dụng cấu trúc dữ liệu danh sách.
+**MNIST Data Processing and k-Nearest Neighbors (kNN) Algorithm**
 
-**Mục Tiêu**
-Sau khi hoàn thành bài tập, sinh viên sẽ:
-+ Thành thạo lập trình hướng đối tượng.
-+ Sử dụng thành thạo cấu trúc dữ liệu danh sách.
-+ Hiểu và thực hiện thuật toán kNN để phân loại dữ liệu.
+**Introduction **
 
-**Nội Dung Bài Tập**
-Tập Dữ Liệu MNIST:
-Bộ dữ liệu MNIST bao gồm các hình ảnh viết tay của các chữ số từ 0 đến 9 với kích thước 28x28 pixel.
-Dữ liệu được lưu trữ dưới dạng các giá trị pixel từ 0 đến 255, mỗi hình ảnh đi kèm với một nhãn từ 0 đến 9.
+This is a major assignment for the Data Structures and Algorithms course at Ho Chi Minh University of Technology. The aim of this assignment is to familiarize students with the k-nearest neighbors (kNN) classification algorithm and apply it to process and classify data from the MNIST dataset using list-based data structures.
 
-Thuật Toán k-Nearest Neighbors (kNN):
-kNN là một thuật toán phân loại dựa trên việc tìm kiếm k điểm dữ liệu gần nhất để phân loại dữ liệu mới.
-Khoảng cách giữa các điểm dữ liệu được tính bằng khoảng cách Euclidean.
+**Objectives **
 
+Upon completing this assignment, students will:
++ Master object-oriented programming.
++ Proficiently use list-based data structures.
++ Understand and implement the kNN algorithm for data classification.
+  
+**Assignment Overview MNIST Dataset:**
 
-Để biên dịch và chạy chương trình, trước tiên bạn cần cài đặt môi trường có sẵn trình biên dịch C++ (cụ thể là g++ với chuẩn C++11). Sau khi đã chuẩn bị môi trường, bạn có thể biên dịch chương trình bằng cách sử dụng lệnh sau trong terminal:
++ The MNIST dataset consists of handwritten images of digits from 0 to 9, each with a resolution of 28x28 pixels. The data is stored as pixel values ranging from 0 to 255, with each image labeled from 0 to 9.
++ k-Nearest Neighbors (kNN) Algorithm: kNN is a classification algorithm that identifies the k closest data points to classify new data. Distances between data points are calculated using the Euclidean distance metric.
 
-bash:
-g++ -o main main.cpp kNN.cpp -I . -std=c++11
-Lệnh này sẽ tạo ra một file thực thi có tên là main. Sau khi biên dịch thành công, bạn có thể chạy chương trình bằng cách gõ lệnh:
-
-bash
-./main
+To compile and run the program, you first need an environment with a C++ compiler (specifically g++ with C++11 support). Once the environment is set up, compile the program using the following command in the terminal:
