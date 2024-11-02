@@ -16,4 +16,12 @@ Upon completing this assignment, students will:
 + The MNIST dataset consists of handwritten images of digits from 0 to 9, each with a resolution of 28x28 pixels. The data is stored as pixel values ranging from 0 to 255, with each image labeled from 0 to 9.
 + k-Nearest Neighbors (kNN) Algorithm: kNN is a classification algorithm that identifies the k closest data points to classify new data. Distances between data points are calculated using the Euclidean distance metric.
 
-To compile and run the program, you first need an environment with a C++ compiler (specifically g++ with C++11 support). Once the environment is set up, compile the program using the following command in the terminal:
+**Instruction:**
+
+To compile and run the program, you first need to set up an environment with a C++ compiler installed (specifically g++ with C++11 standard). After preparing the environment, you can compile the program by using the following command in the terminal:
+bash
+g++ -o main main.cpp kNN.cpp -I . -std=c++11
+
+This command will create an executable file named main. After successfully compiling, you can run the program by typing the command:
+bash
+./main
