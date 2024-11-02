@@ -1,6 +1,6 @@
 **MNIST Data Processing and k-Nearest Neighbors (kNN) Algorithm**
 
-**Introduction **
+**Introduction**
 
 This is a major assignment for the Data Structures and Algorithms course at Ho Chi Minh University of Technology. The aim of this assignment is to familiarize students with the k-nearest neighbors (kNN) classification algorithm and apply it to process and classify data from the MNIST dataset using list-based data structures.
 
